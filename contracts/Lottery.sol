@@ -37,4 +37,4 @@ contract Lottery{
         winner.transfer(getBalance());
         players = new address payable[](0);//reset the lottery
      }
-}
+} 
